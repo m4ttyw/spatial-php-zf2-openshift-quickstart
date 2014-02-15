@@ -2,8 +2,7 @@
 
 ## Set up gear
 
-	rhc app create -a parks -t php-5.3
-	rhc app cartridge add -c mongodb-2.0 -a parks
+	rhc app create parks php-5.3 mongodb-2
 
 ## Load data
 
